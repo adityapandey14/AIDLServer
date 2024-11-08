@@ -16,10 +16,9 @@
             android:name=".AIDLColorService"
             android:enabled="true"
             android:exported="true">
-        <Intent-filter>
-            <action android:name="AIDLColorService" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </Intent-filter>
+            <intent-filter>
+               <action android:name="AIDLColorService"/>
+            </intent-filter>
         </service>
     </application>
 
